@@ -1,0 +1,109 @@
+.button{
+	border-radius: 50%;
+	position: relative;
+  background-color:gold;
+    border: none;
+    font-size: 20px;
+    color:black;
+    padding: 20px;
+    width: 180px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+	
+}
+.button:after {
+	border-radius: 50%;
+    content: "";
+    background:#ECAE48;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button:active:after {
+	
+    padding: 0;
+    margin: 2;
+    opacity: 1;
+    transition: 0s
+}
+
+.h1{
+	font-size: 50px; 
+    font-weight:200px; 
+    color:#000000; 
+    background:#FFBC2B;
+	font: dosis;
+}
+.h2{
+	font-size: 40px; 
+    font-weight: 400; 
+    color:#000000; 
+    background:#F3F273;
+	font: dosis;
+}
+
+.h3{
+	font-size: 40px; 
+    font-weight: 400; 
+    color:#000000; 
+    background:#F3F273;
+	font: dosis;
+}
+.tabla{
+	background:#C2F049;
+	font-size:40px;
+}
+
+.td1{
+	background: #EF9B3E;
+	font-size:25px;
+}
+
+.td2{
+	background: #EF9B3E;
+	font-size:25px;
+}
+.td3{
+	background: #EF9B3E;
+	font-size:25px;
+}
+.td4{
+	background: #EF9B3E;
+	font-size:25px;
+	
+}
+.td5{
+	background: #EF9B3E;
+	font-size:25px;
+	
+}
+.td6{
+	background: #EF9B3E;
+	font-size:25px;	
+}
+.td7{
+	background: #EF9B3E;
+	font-size:25px;
+}
+.td8{
+	background: #EF9B3E;
+	font-size:25px;
+}
+.td9{
+	background: #EF9B3E;
+	font-size:25px;
+}
+.td10{
+	background: #EF9B3E;
+	font-size:25px;
+}
